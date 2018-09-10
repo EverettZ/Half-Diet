@@ -9,6 +9,7 @@ import { UserComponent } from './user.component';
 import { UserRoutingModule } from './user-routing.module';
 import { HomeHeaderComponent } from './components/home-header/home-header.component';
 import { UserService } from './services/user.service';
+import { BackgrounderDirective } from './directives/backgrounder.directive';
 
 @NgModule({
   declarations: [

@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { BackgrounderDirective } from '../../directives/backgrounder.directive';
+import { SvgBackgrounderComponent } from '../../components/svg-backgrounder/svg-backgrounder.component';
 
 @NgModule({
   imports: [
@@ -18,6 +20,6 @@ import { HomePage } from './home.page';
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, BackgrounderDirective, SvgBackgrounderComponent]
 })
 export class HomePageModule {}
